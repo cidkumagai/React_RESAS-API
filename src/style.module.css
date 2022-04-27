@@ -1,22 +1,23 @@
 body {
   margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .title {
   margin: 0%;
-  font-size: 50px;
+  font-size: 80px;
   text-align: center;
   color: #464646;
   background-color: #a7a4a4;
 }
 
-.prefecture {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .prefecture > p {
-  font-size: 40px;
+  font-size: 50px;
   color: #464646;
   margin: 0;
   font-weight: 900;
@@ -32,6 +33,7 @@ body {
   border: solid 3px #464646; 
   border-radius: 10px; 
   transition: 0.5s;
+  font-size: 20px;
 }
 
 .checkbox:hover {
@@ -45,5 +47,35 @@ body {
 }
 
 .chart {
-    margin-top: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width:1440px) { 
+  .title { font-size: 60px;}
+  .prefecture > p {font-size: 50px;}
+  .checkbox {font-size: 18px;}
+}
+
+@media screen and (max-width:1024px) { 
+  .title { font-size: 50px;}
+  .prefecture > p {font-size: 45px;}
+  .checkbox {font-size: 15px;}
+}
+
+@media screen and (max-width:768px) { 
+  .title { font-size: 30px;}
+  .prefecture > p {font-size: 25px;}
+  .checkbox {font-size: 12px;}
+}
+
+@media screen and (max-width:425px) { 
+  .title { font-size: 28px;}
+  .prefecture > p {font-size: 20px;}
+  .checkbox {font-size: 10px;}
+}
+
+@media screen and (max-width:375px) { 
+  .title { font-size: 25px;}
+  .prefecture > p {font-size: 20px;}
+  .checkbox {font-size: 15px;}
 }
