@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.title {
+  margin: 0%;
+  font-size: 50px;
+  text-align: center;
+  color: #464646;
+  background-color: #a7a4a4;
+}
+
+.prefecture {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.prefecture > p {
+  font-size: 40px;
+  color: #464646;
+  margin: 0;
+  font-weight: 900;
+}
+
+.checkbox {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em 0.3em;
+  font-weight: bold;
+  color: #464646; 
+  background: #fff;
+  border: solid 3px #464646; 
+  border-radius: 10px; 
+  transition: 0.5s;
+}
+
+.checkbox:hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: #c0bebe;
+}
+
+.checkbox > input:hover {
+  cursor: pointer;
+}
+
+.chart {
+    margin-top: 30px;
+}
