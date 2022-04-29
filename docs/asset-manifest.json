@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_RESAS-API/static/css/main.c920dee5.css",
+    "main.js": "/React_RESAS-API/static/js/main.96cdf06f.js",
+    "index.html": "/React_RESAS-API/index.html",
+    "main.c920dee5.css.map": "/React_RESAS-API/static/css/main.c920dee5.css.map",
+    "main.96cdf06f.js.map": "/React_RESAS-API/static/js/main.96cdf06f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c920dee5.css",
+    "static/js/main.96cdf06f.js"
+  ]
+}
