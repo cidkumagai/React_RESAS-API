@@ -1,6 +1,6 @@
 # 都道府県別の総人口推移グラフを表示するSPA
 
-> このサイトは[GitHub Pages](https://cidkumagai.github.io/React_RESAS-API/) 
+> このサイトは[GitHub Pages](https://cidkumagai.github.io/React_RESAS-API/) で公開しています。
 
 # 環境
 ・node v16.0.0
