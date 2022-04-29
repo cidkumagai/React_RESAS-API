@@ -3,8 +3,8 @@
 > このサイトは[GitHub Pages](https://cidkumagai.github.io/React_RESAS-API/) で公開しています。
 
 # 環境
+・npm 7.10.0
 ・node v16.0.0
-・create-react-app v5.0.1
 
 # 要件
 ・RESAS(地域経済分析システム) APIの「都道府県一覧」からAPIを取得する
