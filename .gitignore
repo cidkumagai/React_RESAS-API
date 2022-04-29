@@ -5,8 +5,7 @@
 /.pnp
 .pnp.js
 /src/apiKey.js
-package.json
-package-lock.json
+
 # testing
 /coverage
 
