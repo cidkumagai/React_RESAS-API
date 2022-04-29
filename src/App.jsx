@@ -132,6 +132,7 @@ class App extends Component {
 
   // チャート生成
   render() {
+    this.componentDidMount();
     const obj = this.state.prefectures;
     return (
       <div>
