@@ -135,12 +135,16 @@ class App extends Component {
     return (
       <div>
         <h1 className={classes.title}> 都道府県別人口推移 </h1>
-        <div className={classes.prefecture}>
-          <p> 都道府県 </p>
-          {Object.keys(obj).map((i) => this.renderItem(obj[i]))}
+        <section>
+          <div className={classes.prefecture}>
+            <p> 都道府県 </p>
+            {Object.keys(obj).map((i) => this.renderItem(obj[i]))}
+          </div>
+        </section>
+        <section>
           <div className={classes.chart}></div>
           {this.printChart()}
-        </div>
+        </section>
       </div>
     );
   }
