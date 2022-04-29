@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import apiKey from './apiKey';
 import classes from './style.module.css';
 
 class App extends Component {
@@ -18,7 +17,8 @@ class App extends Component {
   // 47都道府県の一覧を取得
   componentDidMount() {
     fetch('https://opendata.resas-portal.go.jp/api/v1/prefectures', {
-      headers: { 'X-API-KEY': apiKey },
+      // eslint-disable-next-line no-undef
+      headers: { 'X-API-KEY': process.env.REACT_APP_APIKEY },
     })
       .then((response) => response.json())
       .then((res) => {
@@ -38,7 +38,8 @@ class App extends Component {
           index + 1
         }`,
         {
-          headers: { 'X-API-KEY': apiKey },
+          // eslint-disable-next-line no-undef
+          headers: { 'X-API-KEY': process.env.REACT_APP_APIKEY },
         },
       )
         .then((response) => response.json())
